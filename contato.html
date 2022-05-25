@@ -5,8 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contatis</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
 </head>
 <body>
+    <style>
+        body{
+            background-image: url(./assets/img/wallpaper.jpg);
+            background-repeat: no-repeat;
+            background-position: center;
+            /* background-size: cover; */
+                }
+        ul {
+            list-style-type: none; 
+            margin: 0;
+            padding: 2;
+            }
+
+        li {
+            display: inline;
+            font-size: 22px;
+            }
+        li a {
+            color: rgb(37, 27, 7);
+            padding: 5px;
+            text-decoration: none;
+            }
+        li a:hover:not(.active) {
+            background-color: rgba(122, 121, 108, 0.329);
+            border-radius: 10%;
+            }          
+    </style>
     <ul>
         <li>
             <a href="index.html">Homis</a>
@@ -15,7 +44,7 @@
             <a href="contato.html">Contatis</a>
         </li>
     </ul>
-    <h1>Entris em contatis comiguis</h1>
+    <h1 class="center">Entris em contatis comiguis</h1>
     <form>
         <label for="nome">Nome:</label><br>
         <input type="text" id="nome">
@@ -31,11 +60,20 @@
     </form>
     <br>
     <br>
-    <h2>Endereço</h2>
-    <p>Rua Thales dos Santos Freire, 16 - Baeta Neves, São Bernardo do Campo - SP, 09190-710</p>
+    <h2 class="center">Endereço</h2>
+    <p class="container">Rua Thales dos Santos Freire, 16 - Baeta Neves, São Bernardo do Campo - SP, 09190-710</p>
+    <div class="container">
 
-<p>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.534196151996!2d-46.55044458255614!3d-23.6926103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43ec7e726747%3A0x524afa73838655e9!2sCacildis!5e0!3m2!1spt-BR!2sbr!4v1652981226873!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    <img src="./assets/img/Mussum bebendo.gif" alt="Mussum bebendis"> 
-</p> 
+    
+    
+         <div>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3653.534196151996!2d-46.55044458255614!3d-23.6926103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce43ec7e726747%3A0x524afa73838655e9!2sCacildis!5e0!3m2!1spt-BR!2sbr!4v1652981226873!5m2!1spt-BR!2sbr" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+            
+        </div> 
+        <div class="img-box">
+            <img src="./assets/img/Mussum bebendo.gif" alt="Mussum bebendis" width="350"> 
+        </div>
+    
+    </div>
 </body>
 </html>
